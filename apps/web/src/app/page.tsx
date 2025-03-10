@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "Roy Li | Software Engineer",
     description:
       "First-Class Honours Graduate in Computer Science from the University of Adelaide. Demonstrated hands-on experience with Frontend Development and UI/UX Design, along with extensive skills in Cloud Operations and Backend Development.",
-    images: "https://github.com/roy-songzhe-li/WhoAmI/blob/main/Avatar.jpg",
+    images: "/images/Avatar.jpg",
   },
   icons: {
     icon: "/favicon.ico",
@@ -96,7 +96,7 @@ const addJsonLd = () => {
       ],
       "jobTitle": "Software Engineer",
       "skills": "Software Engineering, Web Development, Full Stack Development",
-      "image": "https://github.com/roy-songzhe-li/WhoAmI/blob/main/Avatar.jpg",
+      "image": "/images/Avatar.jpg",
       "url": ${siteURL},
       "sameAs": [
         "https://linkedin.com/in/roy-songzhe-li-6432391b3/",

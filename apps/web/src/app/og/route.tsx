@@ -26,7 +26,7 @@ export async function GET(req: NextRequest) {
           alignItems: "flex-start",
           justifyContent: "center",
           backgroundImage:
-            "url(https://github.com/roy-songzhe-li/WhoAmI/blob/main/Avatar.jpg)",
+            "url(/images/Avatar.jpg)",
         }}
       >
         <div

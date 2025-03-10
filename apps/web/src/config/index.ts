@@ -1,7 +1,7 @@
 import { Config } from "@/types/config";
-import { MdOutlineDevices, MdAttachment } from "react-icons/md";
-import { IoSchoolOutline } from "react-icons/io5";
-import { PiTrophy, PiBooks, PiMediumLogoBold } from "react-icons/pi";
+import { MdOutlineDevices, MdAttachment, MdCameraAlt } from "react-icons/md";
+import { IoSchoolOutline, IoMusicalNotes } from "react-icons/io5";
+import { PiTrophy, PiBooks, PiMediumLogoBold, PiVinylRecordLight } from "react-icons/pi";
 import { GoalIcon } from "@primer/octicons-react";
 import {
   LuGithub,
@@ -10,10 +10,12 @@ import {
   LuRss,
   LuMail,
   LuMapPin,
+  LuCamera,
+  LuDisc,
 } from "react-icons/lu";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaRecordVinyl } from "react-icons/fa6";
 import { FaReact, FaAws } from "react-icons/fa";
-import { TbPhoneCalling } from "react-icons/tb";
+import { TbPhoneCalling, TbVinyl } from "react-icons/tb";
 import { IoCalendarOutline } from "react-icons/io5";
 import { AiOutlinePython } from "react-icons/ai";
 import { RiJavaLine, RiJavascriptLine } from "react-icons/ri";
@@ -36,7 +38,7 @@ import {
 } from "react-icons/tb";
 
 const config: Config = {
-  avatar: "https://raw.githubusercontent.com/roy-songzhe-li/WhoAmI/main/Avatar.jpg",
+  avatar: "/images/Avatar.jpg",
   title: "Roy Li | Software Engineer",
   description:
     "First-Class Honours Graduate in Computer Science from the University of Adelaide. Demonstrated hands-on experience with Frontend Development and UI/UX Design, along with extensive skills in Cloud Operations and Backend Development.",
@@ -59,7 +61,7 @@ const config: Config = {
       "First-Class Honours Graduate in Computer Science from the University of Adelaide. Demonstrated hands-on experience with Frontend Development and UI/UX Design, along with extensive skills in Cloud Operations and Backend Development.",
     images: [
       {
-        url: "https://raw.githubusercontent.com/roy-songzhe-li/WhoAmI/main/Avatar.jpg",
+        url: "/images/Avatar.jpg",
         width: 1200,
         height: 630,
         alt: "Roy Li Cover Image",
@@ -143,9 +145,14 @@ In my spare time, I focus on contributing to open-source projects and exploring 
         text: "Passionate about creating responsive and intuitive user interfaces.",
       },
       {
-        icon: GoalIcon,
-        title: "Innovation",
-        text: "Always looking for new challenges and innovative solutions.",
+        icon: LuCamera,
+        title: "Film Photography",
+        text: "Capturing moments and stories through the timeless medium of film.",
+      },
+      {
+        icon: LuDisc,
+        title: "Vinyl Collection",
+        text: "Collecting and appreciating vinyl records for their authentic sound and artistic value.",
       },
     ],
     techStacks: {
