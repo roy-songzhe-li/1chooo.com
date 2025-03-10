@@ -16,6 +16,7 @@ function Footer() {
         </Link>
       </div>
       <div className="space-x-4">
+        {/* 
         <Link
           className="inline text-orange-yellow-crayola underline hover:text-opacity-70"
           href="https://github.com/roy-songzhe-li/herai.com.au"
@@ -40,6 +41,7 @@ function Footer() {
         >
           Docs
         </Link>
+        */}
       </div>
     </footer>
   );

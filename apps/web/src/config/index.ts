@@ -69,9 +69,10 @@ const config: Config = {
   navItems: [
     { path: "/", label: "About" },
     { path: "/resume", label: "Resume" },
-    { path: "/portfolio", label: "Portfolio" },
-    { path: "/post", label: "Post" },
-    { path: "/gallery", label: "Gallery" },
+    // 以下页面暂时隐藏，等内容准备好后再显示
+    // { path: "/portfolio", label: "Portfolio" },
+    // { path: "/post", label: "Post" },
+    // { path: "/gallery", label: "Gallery" },
   ],
   contacts: [
     {
