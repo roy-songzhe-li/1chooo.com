@@ -8,17 +8,17 @@ function Footer() {
         &copy; 2024 - 2025{" "}
         <Link
           className="inline text-orange-yellow-crayola underline hover:text-opacity-70"
-          href="https://1chooo.com"
+          href="https://herai.com.au"
           target="_blank"
           rel="noopener noreferrer"
         >
-          1chooo
+          Roy Li
         </Link>
       </div>
       <div className="space-x-4">
         <Link
           className="inline text-orange-yellow-crayola underline hover:text-opacity-70"
-          href="https://github.com/1chooo/1chooo.com"
+          href="https://github.com/roy-songzhe-li/herai.com.au"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -26,7 +26,7 @@ function Footer() {
         </Link>
         <Link
           className="inline text-orange-yellow-crayola underline hover:text-opacity-70"
-          href="https://docs.1chooo.com/terms"
+          href="https://herai.com.au/terms"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -34,7 +34,7 @@ function Footer() {
         </Link>
         <Link
           className="inline text-orange-yellow-crayola underline hover:text-opacity-70"
-          href="https://docs.1chooo.com"
+          href="https://herai.com.au/docs"
           target="_blank"
           rel="noopener noreferrer"
         >

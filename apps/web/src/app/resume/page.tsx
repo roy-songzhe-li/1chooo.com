@@ -10,7 +10,6 @@ const {
   professionalExperiences,
   educations,
   awardLeaderships,
-  teachingExperiences,
 } = resume;
 
 export const metadata: Metadata = {
@@ -20,12 +19,10 @@ export const metadata: Metadata = {
 export default function Resume() {
   return (
     <article>
-      <PageHeader header="Hugo's Resume" />
+      <PageHeader header="Roy's Resume" />
       <DownloadCV />
       <TimeLine data={professionalExperiences} />
       <TimeLine data={educations} />
-      <TimeLine data={awardLeaderships} />
-      <TimeLine data={teachingExperiences} />
     </article>
   );
 }

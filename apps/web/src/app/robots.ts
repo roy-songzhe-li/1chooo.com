@@ -27,13 +27,13 @@ Disallow:
 
 export default function robots() {
   return {
-    rules: [
-      {
-        userAgent: "*",
-      },
-    ],
-    sitemap: "https://1chooo.com/sitemap.xml",
-    host: "https://1chooo.com",
+    rules: {
+      userAgent: "*",
+      allow: "/",
+      disallow: ["/api/", "/admin/"],
+    },
+    sitemap: "https://herai.com.au/sitemap.xml",
+    host: "https://herai.com.au",
   };
 }
 

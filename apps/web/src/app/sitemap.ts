@@ -7,28 +7,24 @@ import { getPortfolioPosts } from "@/lib/db/v1/portfolio";
  * @returns [{ url: string, lastModified: string }]
  */
 export default async function sitemap() {
-  let blogs = await getBlogPosts();
-  let blogMaps = blogs.map(
-    (post: { metadata: { publishedAt: string }; slug: string }) => ({
-      url: `https://1chooo.com/post/${post.slug}`,
-      lastModified: post.metadata.publishedAt,
-    }),
-  );
+  const posts = await getBlogPosts();
+  const portfolios = await getPortfolioPosts();
 
-  let portfolios = await getPortfolioPosts();
-  let portfolioMaps = portfolios.map(
-    (post: { metadata: { publishedAt: string }; slug: string }) => ({
-      url: `https://1chooo.com/portfolio/${post.slug}`,
-      lastModified: post.metadata.publishedAt,
-    }),
-  );
+  const blogPosts = posts.map((post) => ({
+    url: `https://herai.com.au/post/${post.slug}`,
+    lastModified: new Date(post.metadata.publishedAt),
+  }));
 
-  let routes = ["", "/resume", "/portfolio", "/post", "/gallery"].map(
-    (route) => ({
-      url: `https://1chooo.com${route}`,
-      lastModified: new Date().toISOString().split("T")[0],
-    }),
-  );
+  const portfolioPosts = portfolios.map((post) => ({
+    url: `https://herai.com.au/portfolio/${post.slug}`,
+    lastModified: new Date(post.metadata.publishedAt),
+  }));
 
-  return [...routes, ...blogMaps, ...portfolioMaps];
+  const routes = ["", "/post", "/portfolio", "/resume", "/gallery", "/contact"];
+  const routeEntries = routes.map((route) => ({
+    url: `https://herai.com.au${route}`,
+    lastModified: new Date(),
+  }));
+
+  return [...routeEntries, ...blogPosts, ...portfolioPosts];
 }

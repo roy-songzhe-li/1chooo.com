@@ -57,10 +57,10 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   twitter: {
     card: "summary_large_image",
-    title: "Hugo ChunHo Lin (1chooo) | Open Source Enthusiast",
+    title: "Roy Li | Software Engineer",
     description:
-      "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
-    images: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
+      "First-Class Honours Graduate in Computer Science from the University of Adelaide. Demonstrated hands-on experience with Frontend Development and UI/UX Design, along with extensive skills in Cloud Operations and Backend Development.",
+    images: "https://github.com/roy-songzhe-li/WhoAmI/blob/main/Avatar.jpg",
   },
   icons: {
     icon: "/favicon.ico",
@@ -85,23 +85,22 @@ const addJsonLd = () => {
       "familyName": ${lastName},
       "additionalName": ${preferredName},
       "gender": "male",
-      "birthPlace": "New Taipei, TW",
-      "nationality": "Taiwan",
+      "birthPlace": "Adelaide, SA",
+      "nationality": "Australia",
       "alumniOf":[
         {
           "@type": "CollegeOrUniversity",
-          "name": "National Central University",
-          "sameAs": "https://www.ncu.edu.tw/"
+          "name": "The University of Adelaide",
+          "sameAs": "https://www.adelaide.edu.au/"
         },
       ],
       "jobTitle": "Software Engineer",
-      "skills": "Software Engineering, Web Development, Open Source",
-      "image": "https://www.1chooo.com/images/profile.webp",
+      "skills": "Software Engineering, Web Development, Full Stack Development",
+      "image": "https://github.com/roy-songzhe-li/WhoAmI/blob/main/Avatar.jpg",
       "url": ${siteURL},
       "sameAs": [
-        "https://www.linkedin.com/in/1chooo/",
-        "http://github.com/1chooo",
-        "https://medium.com/@1chooo",
+        "https://linkedin.com/in/roy-songzhe-li-6432391b3/",
+        "https://github.com/roy-songzhe-li"
       ]
     }
   `,
@@ -129,10 +128,10 @@ async function About() {
         id="application/ld+json"
         type="application/ld+json"
         dangerouslySetInnerHTML={addJsonLd()}
-        key="1chooo-website-jsonld"
+        key="roy-li-website-jsonld"
       />
       <PageHeader header={header} />
-      <AboutHeader id="introduction" text="$ ls -al Hugo 👨🏻‍💻 (He/Him)" />
+      <AboutHeader id="introduction" text="$ ls -al Roy 👨🏻‍💻 (He/Him)" />
       <MarkdownRenderer
         className="text-light-gray leading-relaxed"
         content={introduction}

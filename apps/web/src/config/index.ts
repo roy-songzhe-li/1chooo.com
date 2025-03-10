@@ -36,33 +36,33 @@ import {
 } from "react-icons/tb";
 
 const config: Config = {
-  avatar: "/images/profile.webp",
-  title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+  avatar: "/images/Avatar.jpg",
+  title: "Roy Li | Software Engineer",
   description:
-    "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
-  author: "Chun-Ho (Hugo) Lin - 1chooo",
+    "First-Class Honours Graduate in Computer Science from the University of Adelaide. Demonstrated hands-on experience with Frontend Development and UI/UX Design, along with extensive skills in Cloud Operations and Backend Development.",
+  author: "Roy Li",
   keywords: [
-    "Hugo ChunHo Lin",
-    "1chooo",
+    "Roy Li",
     "Software Engineering",
     "Next.js",
     "React",
+    "Full Stack Development",
   ],
-  status: "Day ONE ⚡️",
-  siteURL: "https://www.1chooo.com",
+  status: "Software Engineer ⚡️",
+  siteURL: "https://herai.com.au",
   openGraph: {
-    url: "https://www.1chooo.com/",
+    url: "https://herai.com.au/",
     type: "website",
-    siteName: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
-    title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+    siteName: "Roy Li | Software Engineer",
+    title: "Roy Li | Software Engineer",
     description:
-      "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+      "First-Class Honours Graduate in Computer Science from the University of Adelaide. Demonstrated hands-on experience with Frontend Development and UI/UX Design, along with extensive skills in Cloud Operations and Backend Development.",
     images: [
       {
-        url: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
+        url: "https://github.com/roy-songzhe-li/WhoAmI/blob/main/Avatar.jpg",
         width: 1200,
         height: 630,
-        alt: "Chun-Ho (Hugo) Lin - 1chooo Cover Image",
+        alt: "Roy Li Cover Image",
       },
     ],
   },
@@ -77,67 +77,57 @@ const config: Config = {
     {
       icon: LuMapPin,
       title: "Location",
-      content: "Taipei, Taiwan 🇹🇼",
+      content: "Adelaide, SA",
     },
     {
       icon: LuMail,
       title: "Email",
-      link: "mailto:hugo970217@gmail.com",
-      content: "hugo970217@gmail.com",
+      link: "mailto:roy.songzhe.li@gmail.com",
+      content: "roy.songzhe.li@gmail.com",
     },
-    // {
-    //   icon: TbPhoneCalling,
-    //   title: "Phone",
-    //   content: "404 Not Found 📲",
-    // },
+    {
+      icon: TbPhoneCalling,
+      title: "Phone",
+      link: "tel:+61423473500",
+      content: "+61 (0) 423 473 500",
+    },
     {
       icon: LuGithub,
       title: "GitHub",
-      link: "https://github.com/1chooo",
-      content: "1chooo",
+      link: "https://github.com/roy-songzhe-li",
+      content: "roy-songzhe-li",
     },
-    // {
-    //   icon: IoCalendarOutline,
-    //   title: "Birthday",
-    //   content: "January 27, 2002 🐻",
-    // },
     {
       icon: LuLinkedin,
       title: "LinkedIn",
-      link: "https://www.linkedin.com/in/1chooo/",
-      content: "Chun-Ho (Hugo) Lin",
+      link: "https://linkedin.com/in/roy-songzhe-li-6432391b3/",
+      content: "Roy Li",
     },
   ],
   socialLinks: [
-    { url: `https://github.com/1chooo`, icon: LuGithub, name: "GitHub" },
+    { url: `https://github.com/roy-songzhe-li`, icon: LuGithub, name: "GitHub" },
     {
-      url: `https://www.linkedin.com/in/1chooo/`,
+      url: `https://linkedin.com/in/roy-songzhe-li-6432391b3/`,
       icon: LuLinkedin,
       name: "LinkedIn",
     },
-    {
-      url: `https://medium.com/@1chooo`,
-      icon: PiMediumLogoBold,
-      name: "Medium",
-    },
-    { url: `https://twitter.com/1chooo___`, icon: FaXTwitter, name: "Twitter" },
     { url: `/rss.xml`, icon: LuRss, name: "RSS Feed" },
     { url: `/cv.pdf`, icon: MdAttachment, name: "CV" },
   ],
   about: {
-    firstName: "Chun-Ho",
-    lastName: "Lin",
-    middleName: "",
-    preferredName: "Hugo",
-    additionalName: "Hugo",
+    firstName: "Roy",
+    lastName: "Li",
+    middleName: "Songzhe",
+    preferredName: "Roy",
+    additionalName: "Roy",
     pronouns: "He/Him",
-    githubUsername: "1chooo",
+    githubUsername: "roy-songzhe-li",
     introduction: `
-I obtained my Bachelor's degree from [National Central University 🐿️](https://www.ncu.edu.tw/), driven by a *sincere passion* for **Software Engineering 💻.**
+I obtained my First-Class Honours degree in Computer Science from [the University of Adelaide](https://www.adelaide.edu.au/), driven by a *sincere passion* for **Software Engineering 💻.**
 
-Software is built by humans. Unfortunately, humans make errors, <mark class="text-orange-yellow-crayola bg-transparent"><b>LOTS of ERRORS.</b></mark> Throughout human history, humans have learned to craft machines and tools to help us construct complex architecture. Inspired by this, I explore practical methodologies and tools to improve large-scale software systems' quality, reliability, and efficiency.
+I have demonstrated hands-on experience with Frontend Development and UI/UX Design, along with extensive skills in Cloud Operations and Backend Development. I'm aiming for a role that fosters challenges and innovation. Based in Adelaide with valid visa and full working rights.
 
-In my spare time, I focus on contributing to open-source projects, alongside working out 💪🏻, capturing street photography 📸, and writing tech content ✍🏻.
+In my spare time, I focus on contributing to open-source projects and exploring new technologies.
 
 **Self-motivated, Team player, Love coding 👨🏻‍💻**
     `,
@@ -149,47 +139,32 @@ In my spare time, I focus on contributing to open-source projects, alongside wor
       },
       {
         icon: LuPencil,
-        title: "Storytelling",
-        text: "Love to share my knowledge and experience with others.",
+        title: "Development",
+        text: "Passionate about creating responsive and intuitive user interfaces.",
       },
       {
         icon: GoalIcon,
-        title: "Workouts",
-        text: "Basketball and weight training defines my active workout lifestyle.",
-      },
-      {
-        icon: TbPhotoSquareRounded,
-        title: "Photography",
-        text: "Sky brings freedom; streets, a reminder of others' contributions.",
+        title: "Innovation",
+        text: "Always looking for new challenges and innovative solutions.",
       },
     ],
     techStacks: {
       programmingLanguages: [
-        { name: "Python", icon: AiOutlinePython },
-        { name: "TypeScript", icon: TbBrandTypescript },
-        { name: "Golang", icon: TbBrandGolang },
-        { name: "C++", icon: TbBrandCpp },
-        { name: "Java", icon: RiJavaLine },
         { name: "JavaScript", icon: RiJavascriptLine },
-        { name: "LaTeX", icon: SiLatex },
-        { name: "Markdown", icon: TbMarkdown },
-        { name: "Astro", icon: TbBrandAstro },
-        { name: "Terraform", icon: TbBrandTerraform },
+        { name: "TypeScript", icon: TbBrandTypescript },
+        { name: "Python", icon: AiOutlinePython },
+        { name: "Java", icon: RiJavaLine },
       ],
       frameworks: [
-        { name: "React", icon: FaReact },
-        { name: "FastAPI", icon: SiFastapi },
-        { name: "Flask", icon: BiLogoFlask },
-        { name: "Redis", icon: DiRedis },
-        { name: "Linux Terminal", icon: VscTerminalLinux },
-        { name: "AWS", icon: FaAws },
+        { name: "React.js", icon: FaReact },
         { name: "Next.js", icon: TbBrandNextjs },
+        { name: "Vue.js", icon: FaReact },
+        { name: "Node.js", icon: FaReact },
+        { name: "Django", icon: TbBrandDjango },
         { name: "Docker", icon: TbBrandDocker },
         { name: "MySQL", icon: TbBrandMysql },
-        { name: "Django", icon: TbBrandDjango },
-        { name: "Kubernetes", icon: SiKubernetes },
-        { name: "Postman", icon: SiPostman },
-        { name: "Azure", icon: VscAzure },
+        { name: "AWS", icon: FaAws },
+        { name: "Git", icon: LuGithub },
       ],
     },
   },
@@ -199,100 +174,61 @@ In my spare time, I focus on contributing to open-source projects, alongside wor
       title: "Education",
       items: [
         {
-          company: "National Central University",
-          location: "Taoyuan, Taiwan",
-          role: "Bachelors of Science in Atmospheric Science",
-          duration: "Sep. 2020 — Jun. 2024",
+          company: "The University of Adelaide",
+          location: "Adelaide, SA",
+          role: "Honours Degree of Bachelor of Computer Science",
+          duration: "2019 - 2023",
           tasksMarkdown: `
-- **Minor Specialty:** Computer Science & Information Engineering
-- **Graduate-level Courses:** The Attack and Defense of Computers, Object-Oriented Analysis and Design.
-- **B.S.-level Courses:** Software Engineering, Principles of Programming Languages, Assembly Language and System Programming, Operating System, Computer Network, Algorithmics, Data Structures, Digital Design, Numerical Analysis
-- TA: Linux and Edge Computing, Programming Python, Weather and Artificial Intelligence, Freshman English, Student Service-Learning
+- **GPA:** 7.0/WAM 88.5
+- **Award:** First Class Honours
         `,
+        },
+        {
+          company: "The University of Adelaide",
+          location: "Adelaide, SA",
+          role: "Bachelor of Computer Science (Cybersecurity Major)",
+          duration: "2019 - 2022",
+          tasksMarkdown: ``,
         },
       ],
     },
     awardLeaderships: {
       icon: PiTrophy,
       title: "Award & Leaderships",
-      items: [
-        {
-          company: "2023 Weather Hackathon",
-          location: "Taipei, Taiwan",
-          role: "Team Leader, Full Stack Developer",
-          duration: "May, 2023 - Aug, 2023",
-          tasksMarkdown: `
-- The second place winner, as well as the Executive Yuan Sustainability Special Award 
-<sup>[[News](https://www.weatherrisk.com/post/%E7%AC%AC%E4%BA%8C%E5%B1%86-%E5%A4%A9%E6%B0%A3%E9%BB%91%E5%AE%A2%E6%9D%BE-%E5%9C%93%E6%BB%BF%E6%88%90%E5%8A%9F%EF%BC%8Cesg%E3%80%81%E6%B0%B8%E7%BA%8C%E8%AD%B0%E9%A1%8C%E5%8F%97%E8%A9%95%E5%AF%A9%E8%A6%AA%E7%9D%9E)] | 
-[[GitHub](https://github.com/Weather-Shakespeare)] | 
-[[Blog](https://weather-shakespeare.github.io/)]</sup>
-        `,
-        },
-      ],
+      items: [],
     },
     teachingExperiences: {
       icon: PiBooks,
       title: "Teaching",
-      items: [
-        {
-          company: "National Central University",
-          location: "Taoyuan, Taiwan",
-          role: "Teaching Assistant",
-          duration: "Feb. 2021 - Jun. 2024",
-          tasksMarkdown: `
-- GS4538 Linux and Edge Computing, 24 Spring, Dr. Chia-Kai Chang <sup>[[Website](https://ncuedu.tw/course/linux)] | [[GitHub](https://github.com/NCU-GS4538-Linux)]</sup>
-- AP4064 Weather and Artificial Intelligence II, 24 Spring, Mr. Che-Wei Chou <sup>[[GitHub](https://github.com/weather-and-ai)]</sup>
-- AP4063 Weather and Artificial Intelligence I, 23 Fall, Mr. Che-Wei Chou <sup>[[GitHub](https://github.com/weather-and-ai)]</sup>
-- GS4719 Python Programming, 23 Fall, Dr. Chia-Kai Chang <sup>[[Website](https://ncuedu.tw/course/python)] | [[GitHub](https://github.com/NCU-GS4719-Python)]</sup>
-- Freshman English, 22 Fall & 23 Spring Dr. Chen, Jou-Yin
-- Student Service-Learning, 21 Spring, Prof. Wei-Yu Chang
-        `,
-        },
-      ],
+      items: [],
     },
     professionalExperiences: {
       icon: MdOutlineDevices,
       title: "Professional Experience",
       items: [
         {
-          company: "eCloudvalley Digital Technology",
-          location: "New Taipei, Taiwan",
-          role: "Cloud Engineer Intern",
-          duration: "Mar. 2024 - May. 2024",
+          company: "ExpertEaseAI",
+          location: "Adelaide, SA",
+          role: "Full Stack Developer | Contractor",
+          duration: "May 2024 - Present",
           tasksMarkdown: `
-- Led a team of 5 to enhance issue pools with AWS Bedrock, boosting cloud support efficiency by 80% through multi-language support and 95% accurate image recognition. Honored as the top-achieving internship team.
-- Utilized a serverless architecture on AWS Lambda, performing troubleshooting with CloudWatch, deployed via AWS CDK, and integrated with DynamoDB and Bedrock services.
-- Documented issues in 10+ mock cases, such as VPC entry failures, EC2 Apache server restarts, and S3 photo access problems, and provided detailed solutions for interns. Refer [here](https://github.com/1chooo/ecv-training-materials/tree/main/msp/aws_challenge) for a comprehensive list.
+- Developing and maintaining a RAG-based conversational AI platform using Langchain and LLMs.
+- Creating responsive front-end interfaces with Next.js, React.js, and Node.js, ensuring optimal UI/UX for cross-platform compatibility (CSS Flexbox).
+- Independently applying UI/UX design principles to create intuitive and accessible user interfaces while adhering to modern design standards and best practices.
+- Extending the Django back-end by implementing microservices using RESTful APIs.
+- Supporting configuring Docker, CI/CD pipelines and AWS (EC2+S3) for automated deployment.
           `,
         },
         {
-          company: "Amazon Web Services",
-          location: "Taipei, Taiwan",
-          role: "Campus Ambassador",
-          duration: "Aug. 2023 - Jan. 2024",
+          company: "Lighthouse Holidays",
+          location: "Remote",
+          role: "Project Coordinator, Test Engineer and Developer | Freelance",
+          duration: "Nov 2023 - Mar 2024",
           tasksMarkdown: `
-- Educated 700+ cloud developers and achieved 96% user satisfaction by conducting 2 technical workshops, developing an open-source project, and 1 UAD with AWS cloud services. Refer [here](https://github.com/aws-educate-tw/aws-line-business-card-workshop) for the source code.
-- Conducted a comprehensive 35+ page market research study on cloud suppliers as part of an 11-member team.
-          `,
-        },
-        {
-          company: "PEGATRON Corporation",
-          location: "Taipei, Taiwan",
-          role: "Software Engineer Intern",
-          duration: "Jul. 2023 - Aug. 2023",
-          tasksMarkdown: `
-- Executed a POC, adapting an LLM model for Smart Manufacturing, and was awarded Silver internship team.
-- Collaborated with a team of 5, utilized Git, a CI/CD pipeline, and followed an agile Scrum workflow.
-- Implemented Prompt Engineering and LangChain for the NVIDIA Ominerve visual robot, enabling seamless speech/text operation, boosting test support by 83% across 6-11 scenarios with 85% stability.
-          `,
-        },
-        {
-          company: "National Central University",
-          location: "Taoyuan, Taiwan",
-          role: "Website Developer",
-          duration: "Jul. 2022 - Jan. 2023",
-          tasksMarkdown: `
-- Partnered with a team of 2 to develop a multi-user score management system for the Center for Teacher Education, reducing credit exemption processing time by 80% and remotely maintaining the server via SSH.
+- Developed and deployed an ERP system for a travel agency, featuring user interface, search functions, order management, and e-commerce integration using Nuxt.js, Vue.js, Django, MySQL and Azure.
+- Assembled and led a four-member team, adopting agile methodologies (Git & Jira) for management.
+- Conducted requirements analysis, facilitated communication with clients to ensure seamless delivery.
+- Designed and executed test plans, performed unit testing and regression testing, configured essential Azure services and CI/CD pipelines, ensuring system reliability and efficiency.
           `,
         },
       ],
@@ -300,7 +236,7 @@ In my spare time, I focus on contributing to open-source projects, alongside wor
   },
   giscusConfig: {
     id: "comments",
-    repo: "1chooo/1chooo.com",
+    repo: "roy-songzhe-li/herai.com.au",
     repoId: process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "",
     category: "General",
     categoryId: process.env.NEXT_PUBLIC_GISCUS_CONFIG_CATEGORY_ID || "",

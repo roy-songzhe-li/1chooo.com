@@ -13,7 +13,7 @@ async function StarOnGitHub() {
 
   try {
     const response = await fetch(
-      "https://api.github.com/repos/1chooo/1chooo.com",
+      "https://api.github.com/repos/roy-songzhe-li/herai.com.au",
       {
         headers: process.env.GITHUB_OAUTH_TOKEN
           ? {
@@ -44,7 +44,7 @@ async function StarOnGitHub() {
         "hidden md:inline-flex",
       )}
       target="_blank"
-      href={"https://github.com/1chooo/1chooo.com"}
+      href={"https://github.com/roy-songzhe-li/herai.com.au"}
     >
       <div className="flex items-center">
         <Icons.gitHub className="size-4" />

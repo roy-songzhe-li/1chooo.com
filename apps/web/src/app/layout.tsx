@@ -42,10 +42,10 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   twitter: {
     card: "summary_large_image",
-    title: "Hugo ChunHo Lin (1chooo) | Open Source Enthusiast",
+    title: "Roy Li | Software Engineer",
     description:
-      "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
-    images: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
+      "First-Class Honours Graduate in Computer Science from the University of Adelaide. Demonstrated hands-on experience with Frontend Development and UI/UX Design, along with extensive skills in Cloud Operations and Backend Development.",
+    images: "https://github.com/roy-songzhe-li/WhoAmI/blob/main/Avatar.jpg",
   },
   icons: {
     icon: "/favicon.ico",
