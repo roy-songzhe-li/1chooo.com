@@ -36,7 +36,7 @@ import {
 } from "react-icons/tb";
 
 const config: Config = {
-  avatar: "/images/Avatar.jpg",
+  avatar: "https://raw.githubusercontent.com/roy-songzhe-li/WhoAmI/main/Avatar.jpg",
   title: "Roy Li | Software Engineer",
   description:
     "First-Class Honours Graduate in Computer Science from the University of Adelaide. Demonstrated hands-on experience with Frontend Development and UI/UX Design, along with extensive skills in Cloud Operations and Backend Development.",
@@ -59,7 +59,7 @@ const config: Config = {
       "First-Class Honours Graduate in Computer Science from the University of Adelaide. Demonstrated hands-on experience with Frontend Development and UI/UX Design, along with extensive skills in Cloud Operations and Backend Development.",
     images: [
       {
-        url: "https://github.com/roy-songzhe-li/WhoAmI/blob/main/Avatar.jpg",
+        url: "https://raw.githubusercontent.com/roy-songzhe-li/WhoAmI/main/Avatar.jpg",
         width: 1200,
         height: 630,
         alt: "Roy Li Cover Image",
@@ -112,14 +112,13 @@ const config: Config = {
       icon: LuLinkedin,
       name: "LinkedIn",
     },
-    { url: `/rss.xml`, icon: LuRss, name: "RSS Feed" },
     { url: `/cv.pdf`, icon: MdAttachment, name: "CV" },
   ],
   about: {
     firstName: "Roy",
     lastName: "Li",
-    middleName: "Songzhe",
-    preferredName: "Roy",
+    middleName: "",
+    preferredName: "Songzhe",
     additionalName: "Roy",
     pronouns: "He/Him",
     githubUsername: "roy-songzhe-li",
